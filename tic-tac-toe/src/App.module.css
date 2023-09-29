@@ -1,13 +1,8 @@
-.App {
+.app {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
+.appHeader {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -19,18 +14,14 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-.cells-module {
+.cellsModule {
   min-width: 300px;
   min-height: 300px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.button-cell {
+.buttonCell {
   width: 100px;
   height: 100px;
   padding: 10px;
@@ -38,3 +29,7 @@
   cursor: pointer;
 }
 
+.newGameButton {
+  padding: 10px;
+  font-size: 20px;
+}
